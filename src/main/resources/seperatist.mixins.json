@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cc.ltgc.seperatist.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ObsidianModifier",
+    "DebugStickModifier"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

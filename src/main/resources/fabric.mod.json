@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "seperatist",
+  "version": "${version}",
+
+  "name": "Seperatist",
+  "description": "Don't add any new items but only a few additional crafting recipes, in order to make useless items more useful.",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "assets/seperatist/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cc.ltgc.seperatist.Seperatist"
+    ]
+  },
+  "mixins": [
+    "seperatist.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
